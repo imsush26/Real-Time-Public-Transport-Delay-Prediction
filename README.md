@@ -69,7 +69,7 @@ Models were evaluated using:
 * RMSE (Root Mean Squared Error)
 * R² Score
 
-* 📊 Model Performance
+ 📊 Model Performance
 
 <img width="1410" height="112" alt="image" src="https://github.com/user-attachments/assets/80180d6f-2756-4655-9956-c5e58f080920" />
 
