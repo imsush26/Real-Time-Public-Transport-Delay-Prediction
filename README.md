@@ -7,21 +7,23 @@ The system analyzes factors such as traffic congestion, weather conditions, oper
 The project compares multiple regression models and selects the best-performing model for accurate delay prediction.
 
 🎯 Objectives
-Predict public transport arrival delays in real time
-Analyze the impact of traffic, weather, and operational factors
-Compare different regression algorithms
-Build a deployment-ready machine learning model
+* Predict public transport arrival delays in real time
+* Analyze the impact of traffic, weather, and operational factors
+* Compare different regression algorithms
+* Build a deployment-ready machine learning model
 
 🛠️ Technologies Used
 Programming Language
-Python
+
+*Python
+
 Libraries
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Scikit-learn
-XGBoost
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Scikit-learn
+
 
 📂 Dataset Information
 
@@ -32,8 +34,9 @@ The dataset contains:
 * Operational delay details
 * Event-related data
 * Transport type information
+
 🎯 Target Variable
-actual_arrival_delay_min
+* actual_arrival_delay_min
 
 ⚙️ Project Workflow
 1️⃣ Data Collection & Understanding
@@ -47,33 +50,30 @@ Encoded categorical variables using One-Hot Encoding
 
 Performed:
 
-Univariate Analysis
-Bivariate Analysis
-Correlation Heatmap
-Feature Importance Analysis
+* Univariate Analysis
+* Bivariate Analysis
+* Correlation Heatmap
+* Feature Importance Analysis
 4️⃣ Model Building
 
 Implemented:
 
-Linear Regression
-Random Forest Regressor
-XGBoost Regressor
+* Linear Regression
+* Random Forest Regressor
+* XGBoost Regressor
 5️⃣ Model Evaluation
 
 Models were evaluated using:
 
-MAE (Mean Absolute Error)
-RMSE (Root Mean Squared Error)
-R² Score
-6️⃣ Model Saving
-
-The final trained model was saved using Joblib for future deployment and real-time predictions.
+* MAE (Mean Absolute Error)
+* RMSE (Root Mean Squared Error)
+* R² Score
 
 📊 Model Performance
 Model	MAE	RMSE	R² Score
-Linear Regression	5.44	6.83	0.45
-Random Forest Regressor	4.59	5.61	0.63
-XGBoost Regressor	4.65	5.67	0.62
+* Linear Regression	5.44	6.83	0.45
+* Random Forest Regressor	4.59	5.61	0.63
+* XGBoost Regressor	4.65	5.67	0.62
 🏆 Final Model Selection
 ✅ Selected Model: Random Forest Regressor
 Why Random Forest?
