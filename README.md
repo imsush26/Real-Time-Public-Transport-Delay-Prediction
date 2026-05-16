@@ -27,11 +27,11 @@ XGBoost
 
 The dataset contains:
 
-Traffic conditions
-Weather information
-Operational delay details
-Event-related data
-Transport type information
+* Traffic conditions
+* Weather information
+* Operational delay details
+* Event-related data
+* Transport type information
 🎯 Target Variable
 actual_arrival_delay_min
 
